@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div id="hero" class="container relative py-40">
+  <div id="hero" class="container relative mt-40">
     <!-- Content -->
     <div class="z-10 relative">
       <div class="grid items-center grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-6">

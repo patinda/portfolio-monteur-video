@@ -13,7 +13,7 @@
           {{ PROFILE.fullname }}
         </h2>
 
-        <div class="mt-6 space-y-4">
+        <div class="space-y-4">
           <p class="paragraph" v-for="intro in ABOUT.introduce">
             {{ intro }}
           </p>
