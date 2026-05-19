@@ -15,7 +15,12 @@
           <h1
             class="max-w-4xl text-left text-2xl md:text-3xl lg:text-4xl text-white font-bold mt-4 !leading-snug"
           >
-            {{ HERO.headline }}
+            {{ HERO.headline }} <br />
+          </h1>
+           <h1
+            class="max-w-2xl text-left text-xl md:text-xl lg:text-2xl text-white font-bold mt-4 !leading-snug"
+          >
+            {{ HERO.highlight }}
           </h1>
           <p class="paragraph mt-4 text-left max-w-xl">
             {{ HERO.subline }}

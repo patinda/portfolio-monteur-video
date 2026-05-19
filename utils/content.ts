@@ -34,7 +34,8 @@ export const PROFILE = {
 
 export const HERO = {
   badge: 'Disponible pour des projets facecam',
-  headline: 'Je monte des vidéos facecam pensées pour garder l\'attention.',
+  headline: 'Des vidéos pensées pour captiver du début à la fin.',
+  highlight: 'Shorts • Facecam • Motion Design',
   subline: "Vous avez déjà le plus important : les idées, le message, la caméra. Moi, je prends les rushs et je transforme ça en une vidéo plus claire, plus dynamique et plus agréable à regarder jusqu'au bout. Le bon rythme, les bons cuts et une bonne sensation suffisent souvent à faire toute la différence."
 }
 

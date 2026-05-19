@@ -34,7 +34,7 @@ export const PROFILE = {
 
 export const HERO = {
   badge: 'Disponible pour des projets facecam',
-  headline: 'Je monte des vidéos facecam pensées pour garder l\'attention.',
+  headline: 'Des vidéos pensées pour captiver du début à la fin. Shorts • Facecam • Motion',
   subline: "Vous avez déjà le plus important : les idées, le message, la caméra. Moi, je prends les rushs et je transforme ça en une vidéo plus claire, plus dynamique et plus agréable à regarder jusqu'au bout. Le bon rythme, les bons cuts et une bonne sensation suffisent souvent à faire toute la différence."
 }
 
@@ -99,7 +99,7 @@ export const WORK = {
 export const ABOUT = {
   label: 'À propos',
   introduce: [
-    "Je monte des vidéos pensées pour capter naturellement l’attention.",
+    "Je suis monteur vidéo spécialisé dans la création de contenus pour les réseaux sociaux.",
     "J'aide des créateurs, entrepreneurs et créateurs de contenu à rendre leurs vidéos plus fluides, plus dynamiques et surtout plus simples à regarder.",
     "Ce que j'aime dans le montage, ce n'est pas juste \"faire des effets\". C'est trouver le bon rythme. Savoir quoi garder. Quoi enlever. Et faire en sorte qu'une vidéo se regarde naturellement, sans effort.",
     "Aujourd'hui, internet est rempli de vidéos qui parlent fort pour retenir l'attention. Moi, je préfère faire l'inverse. Un montage propre. Une énergie maîtrisée. Et une vidéo qui donne envie d'être regardée jusqu'au bout."
