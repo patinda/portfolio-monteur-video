@@ -1,5 +1,5 @@
 <template>
-  <LayoutScrollSmooth>
+  
     <section id="process" class="container">
 
       <!-- Header -->
@@ -65,5 +65,5 @@
       </div>
 
     </section>
-  </LayoutScrollSmooth>
+ 
 </template>

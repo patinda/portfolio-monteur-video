@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
- <LayoutScrollSmooth>
+ 
   <section id="about" class="container">
       <!-- Content -->
       <div>
@@ -59,5 +59,5 @@
         </a>
       </div>
   </section>
- </LayoutScrollSmooth>
+
 </template>

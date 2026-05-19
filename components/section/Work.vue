@@ -19,7 +19,7 @@ function getVimeoEmbedUrl(videoId: string | undefined) {
 </script>
 
 <template>
- <LayoutScrollSmooth>
+ 
   <section id="work" class="container">
     <!-- Content -->
     <p class="badge">{{ WORK.label }}</p>
@@ -70,5 +70,5 @@ function getVimeoEmbedUrl(videoId: string | undefined) {
 
 
   </section>
- </LayoutScrollSmooth>
+
 </template>
