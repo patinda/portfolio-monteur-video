@@ -52,3 +52,5 @@ export default defineNuxtConfig({
     display: 'swap', 
   },
 })
+
+ 

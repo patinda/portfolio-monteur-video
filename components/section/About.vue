@@ -3,7 +3,7 @@
 <template>
  <LayoutScrollSmooth>
   <section id="about" class="container">
-    <div class="max-w-4xl mx-auto">
+    <div class="mx-auto">
       <!-- Content -->
       <div class="text-center lg:text-left">
         <p class="badge">{{ ABOUT.label }}</p>
@@ -22,18 +22,18 @@
         <!-- Valeurs / Approche -->
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
           <div class="p-6 border bg-[#0b061a]/40 backdrop-blur-sm border-white/10 rounded-2xl relative group">
-            <div class="text-white font-semibold mb-2 text-lg">Écoute</div>
-            <div class="text-white/60 text-sm">Je prends le temps de comprendre votre vision et vos besoins avant de commencer.</div>
+            <div class="text-white font-semibold mb-2 text-lg">Compréhension</div>
+            <div class="text-white/60 text-sm">Avant de monter, je prends le temps de comprendre votre contenu, votre ton et votre manière de parler.</div>
             <div class="absolute bottom-0 w-40 h-[1px] z-10 bg-gradient-to-r from-[#0b50e5]/0 via-[#0b50e5] to-[#0b50e5]/0"></div>
           </div>
           <div class="p-6 border bg-[#0b061a]/40 backdrop-blur-sm border-white/10 rounded-2xl relative group">
-            <div class="text-white font-semibold mb-2 text-lg">Qualité</div>
-            <div class="text-white/60 text-sm">Chaque projet reçoit la même attention aux détails, du montage à la colorimétrie.</div>
+            <div class="text-white font-semibold mb-2 text-lg">Rythme</div>
+            <div class="text-white/60 text-sm">Chaque coupe, chaque zoom et chaque silence ont un rôle. Rien n'est là juste pour "faire stylé".</div>
             <div class="absolute bottom-0 w-40 h-[1px] z-10 bg-gradient-to-r from-[#0b50e5]/0 via-[#0b50e5] to-[#0b50e5]/0"></div>
           </div>
           <div class="p-6 border bg-[#0b061a]/40 backdrop-blur-sm border-white/10 rounded-2xl relative group">
             <div class="text-white font-semibold mb-2 text-lg">Communication</div>
-            <div class="text-white/60 text-sm">Vous êtes tenu informé à chaque étape. Vos retours sont toujours les bienvenus.</div>
+            <div class="text-white/60 text-sm">Le process reste simple du début à la fin. Vous savez toujours où en est le projet.</div>
             <div class="absolute bottom-0 w-40 h-[1px] z-10 bg-gradient-to-r from-[#0b50e5]/0 via-[#0b50e5] to-[#0b50e5]/0"></div>
           </div>
         </div>
@@ -51,12 +51,12 @@
             <p
               class="group-hover:-translate-y-7 duration-500 ease-[cubic-bezier(0.19,1,0.22,1)]"
             >
-              On discute de votre projet ?
+              On échange ?
             </p>
             <p
               class="absolute top-7 left-0 group-hover:top-0 duration-500 ease-[cubic-bezier(0.19,1,0.22,1)]"
             >
-              On discute de votre projet ?
+              On échange ?
             </p>
           </div>
         </a>

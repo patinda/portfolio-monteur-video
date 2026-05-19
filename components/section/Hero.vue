@@ -13,7 +13,7 @@
           </div>
           
           <h1
-            class="max-w-4xl text-left text-4xl md:text-5xl lg:text-6xl text-white font-bold mt-4 !leading-snug"
+            class="max-w-4xl text-left text-2xl md:text-3xl lg:text-4xl text-white font-bold mt-4 !leading-snug"
           >
             {{ HERO.headline }}
           </h1>
@@ -35,12 +35,12 @@
                 <p
                   class="group-hover:-translate-y-7 duration-500 ease-[cubic-bezier(0.19,1,0.22,1)]"
                 >
-                  Me contacter
+                  Discuter de votre projet
                 </p>
                 <p
                   class="absolute top-7 left-0 group-hover:top-0 duration-500 ease-[cubic-bezier(0.19,1,0.22,1)]"
                 >
-                  Me contacter
+                  Discuter de votre projet
                 </p>
               </div>
             </a>
@@ -53,7 +53,7 @@
             <div class="p-3 border bg-[#0b061a]/40 backdrop-blur-sm border-white/10 rounded-2xl relative flex items-center justify-center group">
               <div class="relative">
                 <img
-                  class="w-72 h-72 md:w-96 md:h-96 lg:w-[28rem] lg:h-[28rem] rounded-lg object-cover"
+                  class="w-72 h-72 md:w-96 md:h-96 lg:w-[28rem] lg:h-[32rem] rounded-lg object-cover"
                   :src="PROFILE.avatar"
                   :alt="`${PROFILE.fullname} - ${PROFILE.role}`"
                 />

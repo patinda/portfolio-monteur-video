@@ -6,7 +6,7 @@
     <section class="max-w-5xl mx-auto px-4 lg:px-0">
     <div class="mesh-gradient flex items-center flex-col rounded-3xl border bg-[#0b061a] border-white/10 p-10 relative">
         <div class="flex flex-col items-center">
-          <h2 class="text-center !max-w-xl section-title ">{{ CTA.label }}</h2>
+          <h2 class="text-center !max-w-xl !text-2xl section-title ">{{ CTA.label }}</h2>
         <p class="paragraph max-w-xl text-center mt-8">
           {{ CTA.description }}
         </p>
@@ -23,12 +23,12 @@
             <p
               class="group-hover:-translate-y-7 duration-500 ease-[cubic-bezier(0.19,1,0.22,1)]"
             >
-              Me contacter sur WhatsApp
+              Me contacter
             </p>
             <p
               class="absolute top-7 left-0 group-hover:top-0 duration-500 ease-[cubic-bezier(0.19,1,0.22,1)]"
             >
-              Me contacter sur WhatsApp
+              Me contacter
             </p>
           </div>
         </a>

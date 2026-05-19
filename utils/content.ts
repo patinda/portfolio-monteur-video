@@ -25,84 +25,94 @@ export const PROFILE = {
     return this.firstname
   },
   role : 'Monteur vidéo',
-  avatar: '/images/profile.png',
+  avatar: '/images/profile.jpeg',
   whatsapp: '+22677990754',
   whatsapp_url: 'https://wa.me/22677990754'
 }
 
 export const HERO = {
-  badge: 'Disponible pour vos projets',
-  headline: `Salut, moi c'est ${PROFILE.firstname}.`,
-  subline : "Si vous êtes ici, c'est probablement parce que vous voulez que vos vidéos soient à la hauteur de vos ambitions. Tout ce que vous avez à faire, c'est tourner la vidéo et moi je m'occupe du reste."
+  badge: 'Disponible pour des projets facecam',
+  headline: 'Je monte des vidéos facecam pensées pour garder l\'attention.',
+  subline: "Vous avez déjà le plus important : les idées, le message, la caméra. Moi, je prends les rushs et je transforme ça en une vidéo plus claire, plus dynamique et plus agréable à regarder jusqu'au bout. Le bon rythme, les bons cuts et une bonne sensation suffisent souvent à faire toute la différence."
 }
 
 export const SERVICE = {
-  label: 'mes services',
-  headline: 'Ce que je peux faire pour vous.',
-  subline: 'Chaque projet est différent. Chaque vidéo a sa propre histoire. Voilà ce que je propose pour donner vie à la vôtre.',
+  label: 'Services',
+  headline: 'Ce que je peux faire pour vos vidéos.',
+  subline: "Chaque créateur a sa façon de parler, son énergie et son audience. Le but n\'est pas de transformer votre vidéo en machine à effets. Le but, c\'est de rendre votre contenu plus agréable à regarder et plus efficace.",
   services: [
     {
-      name: "Montage vidéo",
+      name: "Montage facecam",
       icon: 'VideoPlay',
-      description: 'Du brut au fini. Je transforme vos rushs en vidéos qui captent, qui racontent, qui convertissent. Rythme, émotion, impact — tout est pensé pour que votre message passe.',
+      description: "J\'enlève les longueurs, j\'améliore le rythme et je rends la vidéo plus fluide sans casser votre personnalité.",
       thumbnails: ''
     },
     {
-      name: "Colorimétrie",
+      name: "Dynamique visuelle",
       icon: 'Colorfilter',
-      description: 'Parce qu\'une belle image, c\'est aussi une question de couleurs. Je crée des ambiances visuelles qui renforcent votre identité et l\'émotion de vos vidéos.',
+      description: "Sous-titres, zooms, images, animations, cuts… juste ce qu\'il faut pour garder l\'attention naturellement.",
       thumbnails: ''
     },
     {
-      name: "Motion design",
+      name: "Identité visuelle",
       icon: 'PenTool2',
-      description: 'Des animations légères, des transitions fluides, des éléments graphiques qui donnent du caractère. Sans en faire trop. Juste ce qu\'il faut pour que ça respire.',
+      description: "Couleurs, ambiance, transitions, détails visuels. Pour que vos vidéos aient une vraie cohérence.",
       thumbnails: ''
     },
-   
+    {
+      name: "Shorts & Reels",
+      icon: 'Mobile',
+      description: "Je transforme des contenus longs en formats courts pensés pour capter rapidement l\'attention.",
+      thumbnails: ''
+    },
   ]
 }
 
 export const WORK = {
-  label: 'mes projets',
+  label: 'Projets',
   headline: 'Quelques vidéos que j\'ai montées.',
-  subline: 'Chaque projet m\'a appris quelque chose. Chaque vidéo m\'a fait grandir. Voilà un aperçu de ce que je sais faire, et surtout, de comment je le fais.',
+  subline: "Chaque projet m\'a appris quelque chose. Comment garder l\'attention plus longtemps. Comment rendre une vidéo plus claire. Comment garder une bonne énergie sans surcharger le montage.",
   works: [
     {
-      name: "Vidéo 1",
-      video_id: '1145818995',
-      description: '',
+      name: "Vidéo facecam YouTube", 
+      video_id: '1193440678',
+      description: 'Montage pensé pour améliorer le rythme et garder une attention constante jusqu\'à la fin.',
+      type: 'YouTube'
+    },
+    {
+      name: "Short motivation",
+      video_id: '1193440677',
+      description: 'Format court avec une dynamique plus rapide et un montage plus direct.',
       type: 'Short'
     },
     {
-      name: "Vidéo 2",
-      video_id: '1145819148',
-      description: '',
-      type: 'Short'
+      name: "Contenu éducatif",
+      video_id: '1193440679',
+      description: 'Travail sur la clarté, le confort de visionnage et la fluidité du discours.',
+      type: 'YouTube'
     },
     {
-      name: "Vidéo 3",
-      video_id: 'VIDEO_ID_3',
-      description: '',
+      name: "Contenu éducatif",
+      video_id: '1193440425',
+      description: 'Travail sur la clarté, le confort de visionnage et la fluidité du discours.',
       type: 'YouTube'
     },
   ]
 }
 
 export const ABOUT = {
-  label: 'Qui suis-je ?',
+  label: 'À propos',
   introduce: [
-    `Salut, moi c'est ${PROFILE.firstname}. Monteur vidéo depuis quelques années maintenant.`,
-    "Au début, je montais mes propres vidéos. Parce que j'avais envie de raconter des histoires. Parce que j'aimais cette magie de transformer des rushs bruts en quelque chose qui touche, qui parle, qui reste.",
-    "Aujourd'hui, je fais ça pour d'autres. Des créateurs, des entrepreneurs, des marques. Des gens qui ont une vision et qui ont besoin de quelqu'un pour la rendre visible.",
-    "Ce qui me guide ? La simplicité. Un bon montage, c'est celui qu'on ne remarque pas. C'est celui qui sert l'histoire, pas celui qui la cache. Je crois que chaque vidéo mérite d'être à la hauteur de l'ambition derrière.",
-    "Si vous êtes là, c'est que vous cherchez quelqu'un de fiable. Quelqu'un qui comprend vos besoins. Quelqu'un qui transforme vos rushs en vidéos qui marquent. C'est exactement ce que je fais."
+    "Je suis monteur vidéo spécialisé dans les contenus facecam.",
+    "J'aide des créateurs, entrepreneurs et créateurs de contenu à rendre leurs vidéos plus fluides, plus dynamiques et surtout plus simples à regarder.",
+    "Ce que j'aime dans le montage, ce n'est pas juste \"faire des effets\". C'est trouver le bon rythme. Savoir quoi garder. Quoi enlever. Et faire en sorte qu'une vidéo se regarde naturellement, sans effort.",
+    "Aujourd'hui, internet est rempli de vidéos qui parlent fort pour retenir l'attention. Moi, je préfère faire l'inverse. Un montage propre. Une énergie maîtrisée. Et une vidéo qui donne envie d'être regardée jusqu'au bout."
   ]
 }
 
 export const CTA = {
-  label: 'On discute de votre projet ?',
-  description: 'Vous avez une idée ? Des rushs qui attendent ? Une vision à transformer en vidéo ? Parlons-en. Sans pression. Juste pour voir si on peut créer quelque chose de bien ensemble.'
+  label: "Vous avez déjà les idées.\nIl manque peut-être juste le bon montage.",
+  description: "Si vous avez une vidéo à monter, une idée de contenu ou simplement envie d'améliorer vos vidéos facecam, on peut en discuter tranquillement. Pas besoin d'avoir un projet parfait ou ultra préparé. Envoyez-moi simplement un message, vos rushs ou votre idée. Et on voit ce qu'on peut créer ensemble."
 }
 
 export const TESTIMONIALS = {
@@ -199,6 +209,62 @@ export const CASE_STUDIES = {
       description: "Des formats courts pour Instagram. La marque voulait augmenter ses ventes via les stories. J'ai créé des montages percutants, avec une colorimétrie qui matche leur identité. Résultat : +120% de conversions depuis les vidéos, ROI multiplié par 3.",
       before: "Peu de conversions via les vidéos",
       after: "Conversions multipliées, ROI en hausse"
+    }
+  ]
+}
+export const PROCESS = {
+  label: 'Process',
+  headline: 'Comment on travaille ensemble.',
+  subline: "Un process simple, rapide et clair pour avancer efficacement sans perdre du temps dans des échanges inutiles.",
+  steps: [
+    {
+      number: '01',
+      timing: 'Jour 1',
+      name: 'Envoi des rushs',
+      description: "Vous m'envoyez vos vidéos via Drive, WeTransfer ou Dropbox avec quelques indications sur le rendu souhaité.",
+      details: []
+    },
+    {
+      number: '02',
+      timing: 'Le jour même',
+      name: 'Brief rapide',
+      description: "On échange rapidement sur le style, le rythme, les références et l'objectif de la vidéo. Le but est simple : comprendre exactement ce que vous voulez avant de commencer le montage.",
+      details: []
+    },
+    {
+      number: '03',
+      timing: 'Sous 48h / 72h',
+      name: 'Livraison de la V1',
+      description: "Je réalise le montage complet et vous recevez une première version prête à être review. Selon le projet, cela peut inclure cuts, sous-titres, sound design, zooms, animations et colorimétrie.",
+      details: []
+    },
+    {
+      number: '04',
+      timing: 'Sous 24h',
+      name: 'Retours & ajustements',
+      description: "Vous m'envoyez vos retours directement et j'effectue les modifications nécessaires pour affiner la vidéo. Le process reste simple et rapide pour éviter les allers-retours interminables.",
+      details: []
+    },
+    {
+      number: '05',
+      timing: 'Après validation',
+      name: 'Livraison finale',
+      description: "Vous recevez la version finale optimisée et prête à être publiée sur vos plateformes.",
+      details: []
+    }
+  ],
+  infos: [
+    {
+      label: 'Révisions incluses',
+      value: '3 allers-retours inclus selon le projet'
+    },
+    {
+      label: 'Communication',
+      value: 'Discord / WhatsApp / Frame.io'
+    },
+    {
+      label: 'Livraison fichiers',
+      value: 'Drive / WeTransfer / Dropbox'
     }
   ]
 }
