@@ -92,6 +92,10 @@ export const WORK = {
       video_id: '1193440425',
       type: 'YouTube'
     },
+    {
+      video_id: '1193762175',
+      type: 'Motion design'
+    },
   ]
 }
 
