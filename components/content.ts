@@ -99,7 +99,7 @@ export const WORK = {
 export const ABOUT = {
   label: 'À propos',
   introduce: [
-    "Je suis monteur vidéo spécialisé dans les contenus facecam.",
+    "Je monte des vidéos pensées pour capter naturellement l’attention.",
     "J'aide des créateurs, entrepreneurs et créateurs de contenu à rendre leurs vidéos plus fluides, plus dynamiques et surtout plus simples à regarder.",
     "Ce que j'aime dans le montage, ce n'est pas juste \"faire des effets\". C'est trouver le bon rythme. Savoir quoi garder. Quoi enlever. Et faire en sorte qu'une vidéo se regarde naturellement, sans effort.",
     "Aujourd'hui, internet est rempli de vidéos qui parlent fort pour retenir l'attention. Moi, je préfère faire l'inverse. Un montage propre. Une énergie maîtrisée. Et une vidéo qui donne envie d'être regardée jusqu'au bout."
