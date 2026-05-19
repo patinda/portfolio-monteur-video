@@ -20,13 +20,11 @@
           <p class="paragraph mt-4 text-left max-w-xl">
             {{ HERO.subline }}
           </p>
-          <div class="flex gap-4 items-center mt-8">
+          <div class="flex flex-col sm:flex-row gap-4 items-center mt-8 w-full sm:w-auto">
             <Button label="Voir mes projets" to="#work" />
             <a 
-              :href="PROFILE.whatsapp_url" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              class="group relative overflow-hidden inline-flex btn-dark"
+              href="#cta"
+              class="group relative overflow-hidden inline-flex btn-dark w-full sm:w-auto justify-center"
             >
               <div
                 class="w-full h-4 bg-blue-300/60 blur-lg absolute top-0 inset-x-0 rounded-full group-hover:h-1/2 transition-all duration-500"
@@ -53,7 +51,7 @@
             <div class="p-3 border bg-[#0b061a]/40 backdrop-blur-sm border-white/10 rounded-2xl relative flex items-center justify-center group">
               <div class="relative">
                 <img
-                  class="w-72 h-72 md:w-96 md:h-96 lg:w-[28rem] lg:h-[32rem] rounded-lg object-cover"
+                  class="w-72 h-72 md:w-96 md:h-96 lg:w-[26rem] lg:h-[30rem] rounded-lg object-cover"
                   :src="PROFILE.avatar"
                   :alt="`${PROFILE.fullname} - ${PROFILE.role}`"
                 />

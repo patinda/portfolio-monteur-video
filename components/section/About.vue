@@ -3,9 +3,8 @@
 <template>
  <LayoutScrollSmooth>
   <section id="about" class="container">
-    <div class="mx-auto">
       <!-- Content -->
-      <div class="text-center lg:text-left">
+      <div>
         <p class="badge">{{ ABOUT.label }}</p>
         <h2
           class="section-title"
@@ -39,9 +38,7 @@
         </div>
 
         <a 
-          :href="PROFILE.whatsapp_url" 
-          target="_blank" 
-          rel="noopener noreferrer"
+          href="#cta"
           class="group relative overflow-hidden inline-flex btn-dark mt-10"
         >
           <div
@@ -61,7 +58,6 @@
           </div>
         </a>
       </div>
-    </div>
   </section>
  </LayoutScrollSmooth>
 </template>

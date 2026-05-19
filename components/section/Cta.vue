@@ -3,35 +3,38 @@
 
 <template>
   <LayoutScrollSmooth>
-    <section class="max-w-5xl mx-auto px-4 lg:px-0">
+    <section id="cta" class="max-w-5xl mx-auto px-4 lg:px-0">
     <div class="mesh-gradient flex items-center flex-col rounded-3xl border bg-[#0b061a] border-white/10 p-10 relative">
         <div class="flex flex-col items-center">
-          <h2 class="text-center !max-w-xl !text-2xl section-title ">{{ CTA.label }}</h2>
+          <h2 class="text-center !max-w-xl !text-4xl section-title ">{{ CTA.label }}</h2>
         <p class="paragraph max-w-xl text-center mt-8">
           {{ CTA.description }}
         </p>
-        <a 
-          :href="PROFILE.whatsapp_url" 
-          target="_blank" 
-          rel="noopener noreferrer"
-          class="group relative overflow-hidden inline-flex btn-primary mt-10"
-        >
-          <div
-            class="w-full h-4 bg-blue-300/60 blur-lg absolute top-0 inset-x-0 rounded-full group-hover:h-1/2 transition-all duration-500"
-          ></div>
-          <div class="relative overflow-hidden">
-            <p
-              class="group-hover:-translate-y-7 duration-500 ease-[cubic-bezier(0.19,1,0.22,1)]"
-            >
-              Me contacter
-            </p>
-            <p
-              class="absolute top-7 left-0 group-hover:top-0 duration-500 ease-[cubic-bezier(0.19,1,0.22,1)]"
-            >
-              Me contacter
-            </p>
-          </div>
-        </a>
+        <div class="flex items-center gap-4 mt-10">
+          <a 
+            :href="PROFILE.whatsapp_url" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            class="group relative overflow-hidden inline-flex btn-primary"
+          >
+            <div class="w-full h-4 bg-blue-300/60 blur-lg absolute top-0 inset-x-0 rounded-full group-hover:h-1/2 transition-all duration-500"></div>
+            <div class="relative overflow-hidden">
+              <p class="group-hover:-translate-y-7 duration-500 ease-[cubic-bezier(0.19,1,0.22,1)]">WhatsApp</p>
+              <p class="absolute top-7 left-0 group-hover:top-0 duration-500 ease-[cubic-bezier(0.19,1,0.22,1)]">WhatsApp</p>
+            </div>
+          </a>
+
+          <a 
+            :href="PROFILE.email_url"
+            class="group relative overflow-hidden inline-flex btn-dark"
+          >
+            <div class="w-full h-4 bg-blue-300/60 blur-lg absolute top-0 inset-x-0 rounded-full group-hover:h-1/2 transition-all duration-500"></div>
+            <div class="relative overflow-hidden">
+              <p class="group-hover:-translate-y-7 duration-500 ease-[cubic-bezier(0.19,1,0.22,1)]">Email</p>
+              <p class="absolute top-7 left-0 group-hover:top-0 duration-500 ease-[cubic-bezier(0.19,1,0.22,1)]">Email</p>
+            </div>
+          </a>
+        </div>
 
         <div class="my-8 w-4/5 h-[1px] bg-gradient-to-r from-white/0 via-white/20 to-white/0 "></div>
 

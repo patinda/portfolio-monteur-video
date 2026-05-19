@@ -25,7 +25,7 @@ export const PROFILE = {
     return this.firstname
   },
   role : 'Monteur vidéo',
-  avatar: '/images/profile.jpeg',
+  avatar: '/images/profile.png',
   whatsapp: '+22677990754',
   whatsapp_url: 'https://wa.me/22677990754',
   email: 'lwpspatinda2@gmail.com',
@@ -75,20 +75,22 @@ export const WORK = {
   headline: 'Quelques vidéos que j\'ai montées.',
   subline: "Chaque projet m\'a appris quelque chose. Comment garder l\'attention plus longtemps. Comment rendre une vidéo plus claire. Comment garder une bonne énergie sans surcharger le montage.",
   works: [
-    { 
-      video_id: '1193440678',
+    {
+      name: "Vidéo facecam YouTube",
+      video_id: '1145818995',
+      description: 'Montage pensé pour améliorer le rythme et garder une attention constante jusqu\'à la fin.',
+      type: 'YouTube'
+    },
+    {
+      name: "Short motivation",
+      video_id: '1145819148',
+      description: 'Format court avec une dynamique plus rapide et un montage plus direct.',
       type: 'Short'
     },
     {
-      video_id: '1193440677',
-      type: 'Short'
-    },
-    {
-      video_id: '1193440679',
-      type: 'Short'
-    },
-    {
-      video_id: '1193440425',
+      name: "Contenu éducatif",
+      video_id: 'VIDEO_ID_3',
+      description: 'Travail sur la clarté, le confort de visionnage et la fluidité du discours.',
       type: 'YouTube'
     },
   ]
@@ -250,7 +252,7 @@ export const PROCESS = {
   infos: [
     {
       label: 'Révisions incluses',
-      value: '3 allers-retours inclus selon le projet'
+      value: '2 allers-retours inclus selon le projet'
     },
     {
       label: 'Communication',

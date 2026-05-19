@@ -43,9 +43,8 @@ function navActive() {
         </NuxtLink>
         <!-- Me contacter -->
         <a
-          :href="PROFILE.whatsapp_url"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="#cta"
+          @click="isActive = false"
           class="lg:hidden text-white group text-xl lg:text-base"
         >
           <div class="relative overflow-hidden">
@@ -64,9 +63,7 @@ function navActive() {
       </div>
      <div>
       <a 
-        :href="PROFILE.whatsapp_url" 
-        target="_blank" 
-        rel="noopener noreferrer"
+        href="#cta"
         class="group relative overflow-hidden inline-flex btn-dark rounded-full hidden lg:block shadow-none"
       >
         <div
