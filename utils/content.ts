@@ -76,25 +76,35 @@ export const WORK = {
   headline: 'Quelques vidéos que j\'ai montées.',
   subline: "Chaque projet m\'a appris quelque chose. Comment garder l\'attention plus longtemps. Comment rendre une vidéo plus claire. Comment garder une bonne énergie sans surcharger le montage.",
   works: [
+    {
+      video_id: 'GkNNd2tkAMA',
+      type: 'YouTube',
+      platform: 'youtube'
+    },
+    {
+      video_id: 'CHckLoARfXQ',
+      type: 'YouTube',
+      platform: 'youtube' 
+    },
     { 
       video_id: '1193440678',
-      type: 'Short'
+      type: 'Short',
+      platform: 'vimeo'
     },
     {
       video_id: '1193440677',
-      type: 'Short'
+      type: 'Short',
+      platform: 'vimeo'
     },
     {
       video_id: '1193440679',
-      type: 'Short'
-    },
-    {
-      video_id: '1193440425',
-      type: 'YouTube'
+      type: 'Short',
+      platform: 'vimeo'
     },
     {
       video_id: '1193762175',
-      type: 'Motion design'
+      type: 'Motion design',
+      platform: 'vimeo'
     },
   ]
 }

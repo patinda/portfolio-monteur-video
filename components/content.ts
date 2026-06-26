@@ -76,22 +76,34 @@ export const WORK = {
   subline: "Chaque projet m\'a appris quelque chose. Comment garder l\'attention plus longtemps. Comment rendre une vidéo plus claire. Comment garder une bonne énergie sans surcharger le montage.",
   works: [
     {
-      name: "Vidéo facecam YouTube",
-      video_id: '1145818995',
-      description: 'Montage pensé pour améliorer le rythme et garder une attention constante jusqu\'à la fin.',
-      type: 'YouTube'
+      video_id: 'GkNNd2tkAMA',
+      type: 'YouTube',
+      platform: 'youtube'
     },
     {
-      name: "Short motivation",
-      video_id: '1145819148',
-      description: 'Format court avec une dynamique plus rapide et un montage plus direct.',
-      type: 'Short'
+      video_id: 'CHckLoARfXQ',
+      type: 'YouTube',
+      platform: 'youtube' 
+    },
+    { 
+      video_id: '1193440678',
+      type: 'Short',
+      platform: 'vimeo'
     },
     {
-      name: "Contenu éducatif",
-      video_id: 'VIDEO_ID_3',
-      description: 'Travail sur la clarté, le confort de visionnage et la fluidité du discours.',
-      type: 'YouTube'
+      video_id: '1193440677',
+      type: 'Short',
+      platform: 'vimeo'
+    },
+    {
+      video_id: '1193440679',
+      type: 'Short',
+      platform: 'vimeo'
+    },
+    {
+      video_id: '1193762175',
+      type: 'Motion design',
+      platform: 'vimeo'
     },
   ]
 }

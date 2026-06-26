@@ -1,19 +1,21 @@
 <script setup lang="ts">
 // Fonction pour générer l'URL d'embed Vimeo
-function getVimeoEmbedUrl(videoId: string | undefined) {
+function getEmbedUrl(videoId: string | undefined, platform: string = 'vimeo') {
   if (!videoId) return ''
-  
-  // Si c'est déjà une URL complète, on l'utilise
+
+  if (platform === 'youtube') {
+    return `https://www.youtube.com/embed/${videoId}?rel=0&modestbranding=1`
+  }
+
+  // Vimeo (logique existante)
   if (videoId.includes('player.vimeo.com') || videoId.includes('vimeo.com')) {
-    // Convertir l'URL Vimeo en URL d'embed si nécessaire
     const match = videoId.match(/(?:vimeo\.com\/|player\.vimeo\.com\/video\/)(\d+)/)
     if (match) {
       return `https://player.vimeo.com/video/${match[1]}?autoplay=0&loop=0&muted=0&title=1&byline=1&portrait=0`
     }
     return videoId
   }
-  
-  // Si c'est juste un ID numérique
+
   return `https://player.vimeo.com/video/${videoId}?autoplay=0&loop=0&muted=0&title=1&byline=1&portrait=0`
 }
 </script>
@@ -38,13 +40,13 @@ function getVimeoEmbedUrl(videoId: string | undefined) {
       <div class="p-3 border bg-[#0b061a]/40 backdrop-blur-sm border-white/10 rounded-2xl relative group" v-for="item in WORK.works">
         <div class="overflow-hidden aspect-[16/9] rounded-lg relative group/video">
           <iframe 
-            :src="getVimeoEmbedUrl(item.video_id)"
-            class="w-full h-full object-cover transition-all duration-500 group-hover/video:scale-105"
-            frameborder="0"
-            allow="autoplay; fullscreen; picture-in-picture"
-            allowfullscreen
-            loading="lazy"
-          ></iframe>
+  :src="getEmbedUrl(item.video_id, item.platform)"
+  class="w-full h-full object-cover transition-all duration-500 group-hover/video:scale-105"
+  frameborder="0"
+  allow="autoplay; fullscreen; picture-in-picture"
+  allowfullscreen
+  loading="lazy"
+></iframe>
           <div class="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent pointer-events-none"></div>
         </div>
 
