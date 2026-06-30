@@ -2,17 +2,16 @@
     <SectionHero />
     <LayoutLine />
     <div class="relative">
-     <div class="rounded-full bg-blue-700 top-0 -right-52 w-80 h-[40rem] absolute blur-[200px]"></div>
-    <SectionAbout />
-   </div>
+      <div class="rounded-full bg-blue-700 top-0 -right-52 w-80 h-[40rem] absolute blur-[200px]"></div>
+      <SectionAbout />
+    </div>
     <LayoutLine />
     <SectionService /> 
     <SectionProcess /> 
     <LayoutLine />
-   <div class="relative">
-     <div class="rounded-full bg-blue-700 top-0 -left-52 w-80 h-[40rem] absolute blur-[200px]"></div>
-    <SectionWork />
-   </div>
-    <!-- Testimonials -->
+    <div class="relative">
+      <div class="rounded-full bg-blue-700 top-0 -left-52 w-80 h-[40rem] absolute blur-[200px]"></div>
+      <SectionStyles />
+    </div>
     <SectionCta />
 </template>
