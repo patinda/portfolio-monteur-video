@@ -35,7 +35,6 @@ export const STYLES = {
       videos: [
         { video_id: 'GkNNd2tkAMA', platform: 'youtube' },
         { video_id: 'CHckLoARfXQ', platform: 'youtube' },
-        { video_id: 'MM7zQrkPe_Q', platform: 'youtube' },
         { video_id: 'emATtkM-Gh4', platform: 'youtube' },
       ]
     },
